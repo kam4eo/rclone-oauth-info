@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Information about Kamel's personal rclone Google Drive synchronization app.">
+<title>Personal rclone sync · Kamel</title>
+<style>
+:root{color-scheme:light dark;font-family:system-ui,sans-serif;line-height:1.65}body{max-width:42rem;margin:0 auto;padding:3rem 1.3rem;background:light-dark(#f8fafc,#111827);color:light-dark(#192638,#e5e7eb)}a{color:light-dark(#174fb8,#93c5fd);text-underline-offset:.2em}header{border-bottom:1px solid #8695a640;padding-bottom:2rem;margin-bottom:2rem}h1{font-size:clamp(2rem,6vw,2.8rem);line-height:1.15;letter-spacing:-.04em}h2{font-size:1.2rem;margin-top:2rem}.eyebrow{font-size:.8rem;text-transform:uppercase;letter-spacing:.13em;color:light-dark(#516174,#b6c5d6)}footer{border-top:1px solid #8695a640;margin-top:3rem;padding-top:1rem;font-size:.9rem}
+</style>
+<header><p class="eyebrow">Personal application · Kamel</p><h1>Personal rclone sync</h1><p>A private desktop workflow for keeping the account owner's files in sync between personal computers and Google Drive.</p></header>
+<main>
+<h2>What this app does</h2>
+<p>This application uses <a href="https://rclone.org/">rclone</a>, an open-source command-line program, and Google's Drive API to synchronize files. It is intended for the owner's personal use. It is not a public file-sharing service or an official Google product.</p>
+<h2>Why it asks for Google Drive access</h2>
+<p>Bidirectional synchronization requires permission to list, read, create, update, and delete files in the authorized Google Drive account. The desktop sync configuration determines which folders are synchronized.</p>
+<h2>How authorization works</h2>
+<p>Google authorization is completed directly with Google for the locally installed rclone program. This information site has no sign-in form and does not receive OAuth tokens or Drive files.</p>
+<p><a href="privacy.html">Read the privacy policy →</a></p>
+</main>
+<footer>Maintained by <a href="https://github.com/kam4eo">kam4eo</a> · <a href="https://github.com/kam4eo/rclone-oauth-info/issues">Contact via GitHub</a></footer>
+</html>
